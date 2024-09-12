@@ -1,4 +1,8 @@
 function getFirstElement (arr){
+    arr.forEach(element => {
+        console.log(element)
+    });
+    
     return arr[0];
 }
 
